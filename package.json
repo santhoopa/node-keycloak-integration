@@ -1,0 +1,21 @@
+{
+	"name": "sample-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^2.7.2",
+		"express": "^4.17.1",
+		"express-session": "^1.17.0",
+		"keycloak-connect": "^7.0.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.4"
+	}
+}
